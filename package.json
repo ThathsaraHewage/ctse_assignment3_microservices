@@ -1,6 +1,8 @@
 {
-  "name": "product-management",
+  "name": "products-mgt",
   "version": "1.0.0",
+  "apiVersion": "apps/v1",
+  "kind": "Deployment",
   "description": "APIs with nodejs for product management",
   "main": "index.js",
   "scripts": {

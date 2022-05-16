@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: product-mgt
+spec:
+  selector:
+    app: products-mgt
+  ports:
+    - protocol: TCP
+      port: 5000
+type: LoadBalancer
